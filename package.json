@@ -1,0 +1,32 @@
+{
+  "name": "etchebestia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently --kill-others \"npm run client\" \"npm run server\"",
+    "start": "npm run dev",
+    "init-client": "cd client && npm install",
+    "init-server": "cd server && npm install",
+    "init-project": "npm run init-client && npm run init-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/nico.ferreira.web/Etchebestia.git"
+  },
+  "author": "Ferreira Nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/nico.ferreira.web/Etchebestia/issues"
+  },
+  "homepage": "https://gitlab.com/nico.ferreira.web/Etchebestia#README",
+  "devDependencies": {
+    "concurrently": "^3.6.1"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.21"
+  }
+}

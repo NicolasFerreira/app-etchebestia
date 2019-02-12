@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5b4f552637dbcc6dba0b40ca"},"name":"agneau"}
+{"_id":{"$oid":"5b4f553c37dbcc6dba0b40e6"},"name":"brebis"}
+{"_id":{"$oid":"5b4f554537dbcc6dba0b40ea"},"name":"veau"}
+{"_id":{"$oid":"5b4f554f37dbcc6dba0b40f2"},"name":"vache"}
