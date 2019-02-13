@@ -29,9 +29,6 @@ $ npm install
 $ npm run init-project
 $ npm run dev
 ```
-### Screenshots 
-
-![](./imgmd/capture1.png)
 
 ### Todos
 
